@@ -25,10 +25,10 @@ public class Nested_If {
 		} else
 			System.out.println("FAIL");
 //Q. Write a program if customer age is greater 
-//or equal then 60 then print in console “tax will be 0%“ 
+//or equal then 60 then print in console ï¿½tax will be 0%ï¿½ 
 //and if customer age is greater then 70  then print ("no service charge")
 //and  ("discount will be added")
-//Otherwise print (“tax wil be 10%");
+//Otherwise print (ï¿½tax wil be 10%");
 //and if customer age is less then 25 then print 
 //("service charge will be added") and ("no discount");
 //	Test Input: 15, 25 ,47, 60, 65, 70,78
@@ -46,22 +46,22 @@ public class Nested_If {
 		} else {
 			System.out.println("tax will be 10%");
 			if (age < 25) {
-				System.out.println("sevice charge will be added");
+				System.out.println("Sevice Charge will be added by Mina");
 				System.out.println("no discount");
 			}
 		}
 //Q. Write a program if customer age greater then or equal 63
-//then print “Senior Citizen”.
-//otherwise print “ Junior Citizen”. 
+//then print ï¿½Senior Citizenï¿½.
+//otherwise print ï¿½ Junior Citizenï¿½. 
 //Among Junior Citizen if age is less then 12 
-//than print “Baby”.
+//than print ï¿½Babyï¿½.
 //if age is greater then or equal 12 and less then 18 
-//than print “Teen” .
+//than print ï¿½Teenï¿½ .
 //if age is greater than or equal 18 
-//then print “Adult”.
+//then print ï¿½Adultï¿½.
 //Among Adult if age is greater than or equal 45 
-//then print “ Senior “adult”.
-//if age is less then 45 then print “ Junior adult”.
+//then print ï¿½ Senior ï¿½adultï¿½.
+//if age is less then 45 then print ï¿½ Junior adultï¿½.
 		System.out.println("=============================");
 		int age1;
 		age1 = 13;
